@@ -6,7 +6,7 @@ import Home from "../pages/Home";
 import Market from "../pages/Market";
 import Create from "../pages/Create";
 import Contact from "../pages/Contact";
-
+import About from "../pages/About";
 import Wallet from "../pages/Wallet";
 import NftDetails from "../pages/NftDetails";
 
@@ -18,6 +18,7 @@ const Routers = () => {
       <Route path="/market" element={<Market />} />
       <Route path="/create" element={<Create />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/about" element={<About />} />
       <Route path="/wallet" element={<Wallet />} />
       <Route path="/market/:id" element={<NftDetails />} />
     </Routes>

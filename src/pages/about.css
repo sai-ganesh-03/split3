@@ -1,0 +1,31 @@
+div#one{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:100vh;
+}
+
+div#boxes{
+    width:100%;
+    overflow: hidden;
+}
+
+div#boxes .row{
+    height: 100%;
+    width: 100%;
+    
+}
+
+div.box {
+    width: 100%;
+}
+div.box h1{
+    font-size: 2em;
+}
+div.box video{
+    max-width: 80%;
+}
+
+

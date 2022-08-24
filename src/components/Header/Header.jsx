@@ -1,5 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import "./header.css";
+
 import { Container } from "reactstrap";
 
 import { NavLink, Link } from "react-router-dom";
@@ -21,6 +22,10 @@ const NAV__LINKS = [
     display: "Contact",
     url: "/contact",
   },
+  {
+    display:"About Us",
+    url:"/about"
+  }
 ];
 
 const Header = () => {
@@ -56,7 +61,7 @@ const Header = () => {
               <span>
                 <i class="ri-fire-fill"></i>
               </span>
-              NFTs
+              Split3
             </h2>
           </div>
 
@@ -83,6 +88,10 @@ const Header = () => {
                 <i class="ri-wallet-line"></i>
               </span>
               <Link to="/wallet">Connect Wallet</Link>
+            </button>
+            <button className="btn d-flex gap-2 align-items-center">
+              
+              <Link to="/wallet">Sign In</Link>
             </button>
 
             <span className="mobile__menu">

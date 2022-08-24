@@ -1,0 +1,25 @@
+section#slider {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    --v-offset: 60px;
+    --curve-height: 120px;
+  
+    
+  }
+  
+  .wra {
+    display: grid;
+    grid-template-rows: 300px;
+    grid-auto-flow: column;
+    grid-gap: 24px;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+  
+     .simg {
+        height: 50vh;
+        width: 100%;
+      scroll-snap-align: center;
+    }
+  }
+  

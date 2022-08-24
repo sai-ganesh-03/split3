@@ -3,16 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@splinetool/react-spline": "^2.2.1",
+    "@splinetool/runtime": "^0.9.93",
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "bootstrap": "^5.1.3",
+    "framer-motion": "^7.0.0",
+    "jquery": "^3.6.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router-dom": "^6.2.1",
     "react-scripts": "4.0.3",
+    "react-spline": "^1.2.1",
     "reactstrap": "^9.0.1",
     "remixicon": "^2.5.0",
+    "sass": "^1.54.4",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
